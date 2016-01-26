@@ -1,0 +1,13 @@
+    <nav class="global-nav">
+      <header class="global-nav__header">
+        <a href="/" class="global-nav__brand">sitename</a>
+        <div class="global-nav__description">description</div>
+      </header>
+      <div class="global-nav__list-wrapper">
+        <ul class="global-nav__list">
+          <li class="global-nav__list-item">
+            <a href="" {% if page.url == '' %} class="is-active global-nav__list-link" {% else %} class="global-nav__list-link">nav</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
